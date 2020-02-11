@@ -18,7 +18,7 @@ int main()
 		cout << "Entering inner scope for a shared pointer." << endl;
 		{
 			//Declaring/assigning shared pointer
-			shared_ptr<Replicant> sharedReplicant2 = make_shared<Replicant>();
+			shared_ptr<Replicant> sharedReplicant2 = make_shared<Replicant>(); 
 			//Assigning shared pointers to each other, effectively copying it
 			sharedReplicant1 = sharedReplicant2;
 			//sharedReplicant1->Print();
